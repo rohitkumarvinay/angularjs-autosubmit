@@ -1,1 +1,1 @@
-# rohitkumarvinay.github.io-angularjs-autosubmit
+# AngularJS-Autosubmit

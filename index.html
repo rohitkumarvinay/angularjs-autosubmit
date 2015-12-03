@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>AngularFormAutoSubmit</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/angular-material.min.css">
+</head>
+<body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-material.min.js"></script>
+  <script src="js/angular-aria.min.js"></script>
+  <script src="js/angular-animate.min.js"></script>
+
+      <div class="e21-full-center" ng-controller="myController" ng-app="submitTest"  layout="column" layout-align="center center">
+
+      <form name="autoForm" novalidate timeout-show="time.submitTimeout" auto-submit="3000" ng-submit="setText()" flex="40" >
+      <p layout="row" layout-align="center center">AngularJs</p>
+      <h4  layout="row" layout-align="center center" >Auto Save / Auto Submit</h4>
+       <md-input-container  flex="" class=" form">
+       <label flex="100" layout="row" layout-align="center center">Type Your Data Here</label>
+       <input type="text" name="theText" ng-model="myText" >
+     </md-input-container>
+     
+   </form>
+   <h5 flex="100"  ng-show="time.submitTimeout">Submitting form in {{ time.submitTimeout }}</h5>
+   <h5 flex="100" >{{ outsideText }}</h5>
+ </div>
+
+<script src="js/index.js"></script>
+<script type="text/javascript">
+    $('.form').addClass('animated lightSpeedIn');
+    $('h4').addClass('animated fadeIn');
+</script>
+</body>
+</html>

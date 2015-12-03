@@ -1,0 +1,11 @@
+/*Base*/
+*, *:after, *:before {-webkit-box-sizing: border-box; box-sizing: border-box; } body{font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif; } input{min-height: 50px; text-align: center; border-radius: 7px!important; box-shadow:  0 3px 5px -1px rgba(0,0,0,.2),0 5px 8px 0 rgba(0,0,0,.14),0 1px 14px 0 rgba(0,0,0,.12), inset 0px -1px 1px 1px #eee; background: white!important; }
+h4{margin:0!important;text-shadow: 0 1px 0 rgb(204,204,204) , 0 0 0 rgb(201,201,201) , 0 0.5px 0 rgb(187,187,187) , 0 1px 0 rgb(185,185,185) , 0 1.5px 0 rgb(170,170,170) , 0 2px 1px rgba(0,0,0,0.0980392) , 0 0 2.5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 1px 5px rgba(0,0,0,0.2) , 0 3px 9px rgba(0,0,0,0.247059) , 0 5px 10px rgba(0,0,0,0.2) , 0 5px 20px rgba(0,0,0,0.14902) ; color:#fff; font-size: 30px; } 
+h5{margin:0!important;text-shadow: 0 1px 0 rgb(204,204,204) , 0 0 0 rgb(201,201,201) , 0 0.5px 0 rgb(187,187,187) , 0 1px 0 rgb(185,185,185) , 0 1.5px 0 rgb(170,170,170) , 0 2px 1px rgba(0,0,0,0.0980392) , 0 0 2.5px rgba(0,0,0,0.0980392) ; color:#fff; font-size: 20px; }
+/*Angular-Material Mod*/
+md-input-container .md-placeholder, md-input-container label:not(.md-no-float) {-webkit-transform: translate3d(0,39px,0) scale(1)!important; transform: translate3d(0,39px,0) scale(1)!important; }
+md-input-container.md-input-focused label:not(.md-no-float) {-webkit-transform: translate3d(0,-1px,0) scale(1)!important; transform: translate3d(0,-1px,0) scale(1)!important; color:#fff!important; }
+md-content{height: 100%; }
+/*Custom*/
+.e21-full-center{min-height: 100vh; background: #4aa3df; /* Old browsers */ background: -moz-radial-gradient(center, ellipse cover,  #4aa3df 0%, #2980b9 100%); /* FF3.6-15 */ background: -webkit-radial-gradient(center, ellipse cover,  #4aa3df 0%,#2980b9 100%); /* Chrome10-25,Safari5.1-6 */ background: radial-gradient(ellipse at center,  #4aa3df 0%,#2980b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4aa3df', endColorstr='#2980b9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ }
+p{font-size: 30px;margin: 0;}
